@@ -14,7 +14,7 @@
 class Employee:
 
     def __init__(self):
-        self.name = "Suraj"
+        self.name = "Devika"
 
 
 obj1 = Employee()
@@ -26,8 +26,8 @@ print(obj2.name)
 print(obj3.name)
 
 # Changing instance variable separately
-obj1.name = "Kumar"
-obj2.name = "Mishra"
+obj1.name = "Kaviraj"
+obj2.name = "Bhoye"
 
 print(obj1.name)
 print(obj2.name)
@@ -102,7 +102,7 @@ class College:
     college_name = "Modern College"   # Static variable
 
     def __init__(self):
-        self.student_name = "Suraj"   # Instance variable
+        self.student_name = "Devika"   # Instance variable
 
 
 principal = College()
@@ -118,7 +118,7 @@ print("Accountant:", accountant.college_name, "...", accountant.student_name)
 College.college_name = "HBD"
 
 # Changing instance variable
-principal.student_name = "Suraj Mishra"
+principal.student_name = "Devika Kaviraj Bhoye"
 
 print("Principal =", principal.college_name, "|", principal.student_name)
 print("Teacher =", teacher.college_name, "|", teacher.student_name)
