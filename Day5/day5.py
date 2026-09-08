@@ -7,7 +7,7 @@
 # 1. CHECK STRING IS PALINDROME OR NOT
 # ============================================================
 
-name = "Suraj"
+name = "Devika"
 
 if name[:] == name[::-1]:
     print("Palindrome")
@@ -105,10 +105,10 @@ else:
 # ============================================================
 
 student = {
-    101: "suraj",
-    102: "akash",
-    "101": "ayush",
-    101: "ram"
+    101: "Devika",
+    102: "Roshani",
+    "101": "Rupali",
+    101: "Neha"
 }
 
 print(student)
@@ -119,11 +119,11 @@ print(student)
 # ============================================================
 
 student = {
-    101: "suraj",
-    102: "akash",
-    "101": "ayush",
-    101: "ram",
-    "empname": "anish"
+    101: "Devika",
+    102: "Roshani",
+    "101": "Rupali",
+    101: "Neha",
+    "empname": "Raghav"
 }
 
 for i in student:
@@ -159,11 +159,11 @@ for i in student.items():
 # ============================================================
 
 student = {
-    101: "suraj",
-    102: "akash",
-    "101": "ayush",
-    101: "ram",
-    "empname": "anish"
+    101: "Devika",
+    102: "Roshani",
+    "101": "Rupali",
+    101: "Neha",
+    "empname": "Raghav"
 }
 
 student.pop(101)
@@ -176,11 +176,11 @@ print(student)
 # ============================================================
 
 student = {
-    101: "suraj",
-    102: "akash",
-    "101": "ayush",
-    101: "ram",
-    "empname": "anish"
+    101: "Devika",
+    102: "Roshani",
+    "101": "Rupali",
+    101: "Neha",
+    "empname": "Raghav"
 }
 
 student.clear()
@@ -193,11 +193,11 @@ print(student)
 # ============================================================
 
 student = {
-    101: "suraj",
-    102: "akash",
-    "101": "ayush",
-    101: "ram",
-    "empname": "anish"
+    101: "Devika",
+    102: "Roshani",
+    "101": "Rupali",
+    101: "Neha",
+    "empname": "Raghav"
 }
 
 newstudent = student.copy()
@@ -218,11 +218,11 @@ print(newstudent[101])
 # ============================================================
 
 student = {
-    101: "suraj",
-    102: "akash",
-    "101": "ayush",
-    101: "ram",
-    "empname": "anish"
+    101: "Devika",
+    102: "Roshani",
+    "101": "Rupali",
+    101: "Neha",
+    "empname": "Raghav"
 }
 
 student[103] = "DIP101"
